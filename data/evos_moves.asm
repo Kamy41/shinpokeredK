@@ -201,8 +201,8 @@ RhydonEvosMoves:
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
 	db 48, HORN_DRILL
-	db 55, LEER
-	db 64, TAKE_DOWN
+	db 55, TAKE_DOWN
+	db 61, EARTHQUAKE
 	db 0
 
 KangaskhanEvosMoves:
@@ -269,10 +269,9 @@ VoltorbEvosMoves:
 NidokingEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
+; Learnset	
 	db 23, THRASH
+	db 41, EARTHQUAKE
 	db 0
 
 SlowbroEvosMoves:
@@ -325,7 +324,7 @@ ExeggcuteEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, REFLECT
+	db 25, CONFUSION
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
@@ -370,10 +369,9 @@ NidoranFEvosMoves:
 NidoqueenEvosMoves:
 ; Evolutions
 	db 0
-; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
+; Learnset	
 	db 23, BODY_SLAM
+	db 41, EARTHQUAKE
 	db 0
 
 CuboneEvosMoves:
@@ -397,8 +395,8 @@ RhyhornEvosMoves:
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
 	db 45, HORN_DRILL
-	db 50, LEER
-	db 55, TAKE_DOWN
+	db 50, TAKE_DOWN
+	db 55, EARTHQUAKE
 	db 0
 
 LaprasEvosMoves:
@@ -616,6 +614,7 @@ KadabraEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 18, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
@@ -806,9 +805,8 @@ KoffingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 37, SMOKESCREEN
-	db 40, SELFDESTRUCT
-	db 45, HAZE
-	db 48, EXPLOSION
+	db 40, HAZE
+	db 45, EXPLOSION
 	db 0
 
 MissingNo38EvosMoves:
@@ -1649,9 +1647,8 @@ WeezingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
-	db 49, HAZE
-	db 53, EXPLOSION
+	db 43, HAZE
+	db 49, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -1703,6 +1700,7 @@ AlakazamEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 18, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
