@@ -41,11 +41,6 @@ GBCBasePalettes:
 	RGB 17,20,30
 	RGB 3,2,2
 
-	RGB 31,29,31 ; PAL_SAFFRON
-	RGB 27,27,3
-	RGB 17,20,30
-	RGB 3,2,2
-
 	RGB 31,29,31 ; PAL_FUCHSIA
 	RGB 31,15,22
 	RGB 17,20,30
@@ -61,6 +56,11 @@ GBCBasePalettes:
 	RGB 17,20,30
 	RGB 3,2,2
 
+	RGB 31,29,31 ; PAL_SAFFRON
+	RGB 27,27,3
+	RGB 17,20,30
+	RGB 3,2,2
+
 	RGB 31,29,31 ; PAL_TOWNMAP
 	RGB 17,20,30
 	RGB 17,23,10
@@ -71,19 +71,19 @@ IF DEF(_BLUE)
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB 21,  0,  4	;unused on title screen
-	RGB  3,  2,  2	;version subtitle text color
+	RGB  3,  2, 23	;version subtitle text color
 ENDC
 IF DEF(_RED)
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB 17, 23, 10	;unused on title screen
-	RGB  3,  2,  2	;version subtitle text color
+	RGB 23,  2,  2	;version subtitle text color
 ENDC
 IF DEF(_GREEN)
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB 17, 23, 10	;unused on title screen
-	RGB  3,  2,  2	;version subtitle text color
+	RGB  3, 23,  2	;version subtitle text color
 ENDC
 
 	; PAL_LOGO2
@@ -91,22 +91,22 @@ IF (DEF(_RED) && DEF(_JPLOGO))
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB  3,  3, 23	;"pocket monsters" logo text color
-	RGB  3,  2,  2	;japanese logo text color
+	RGB 23,  2,  2	;japanese logo text color
 ELIF (DEF(_GREEN) && DEF(_JPLOGO))
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB  3,  3, 23	;"pocket monsters" logo text color
-	RGB  3,  2,  2	;japanese logo text color
+	RGB  3, 23,  2	;japanese logo text color
 ELIF (DEF(_BLUE) && DEF(_JPLOGO))
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;unused yellow logo text
 	RGB 31, 15,  0	;"pocket monsters" logo text color
-	RGB  3,  2,  2	;japanese logo text color
+	RGB  3,  2, 23	;japanese logo text color
 ELSE
 	RGB 31, 29, 31	;white bg
 	RGB 31, 31,  0	;yellow logo text
 	RGB  7,  7, 25	;blue logo text shadow
-	RGB  3,  2,  2	;blue logo text outline
+	RGB  3,  2, 17	;blue logo text outline
 ENDC
 	RGB 31,29,31 ; PAL_0F
 	RGB 24,20,30
