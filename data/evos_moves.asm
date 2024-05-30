@@ -588,7 +588,8 @@ PidgeyEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 13, QUICK_ATTACK
 	db 19, WHIRLWIND
 	db 28, WING_ATTACK
 	db 36, AGILITY
@@ -1716,7 +1717,8 @@ PidgeottoEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 13, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 31, WING_ATTACK
 	db 40, AGILITY
@@ -1728,7 +1730,8 @@ PidgeotEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 13, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 31, WING_ATTACK
 	db 44, AGILITY
