@@ -579,7 +579,7 @@ SetAttackAnimPal_otheranim:
 TypePalColorList:
 	db PAL_MEWMON;normal
 	db PAL_REDMON;fighting
-	db PAL_CYANMON;flying
+	db PAL_YELLOWMON;flying
 	db PAL_PURPLEMON;poison
 	db PAL_BROWNMON;ground
 	db PAL_BROWNMON;rock
@@ -602,8 +602,8 @@ TypePalColorList:
 	db PAL_GREENMON;grass
 	db PAL_YELLOWMON;electric
 	db PAL_PURPLEMON;psychic
-	db PAL_CYANMON;ice
-	db PAL_BLUEMON;dragon
+	db PAL_BLUEMON;ice
+	db PAL_MEWMON;dragon
 ItemPalList:
 	db PAL_BW	;null item
 	db PAL_PURPLEMON	;master ball
