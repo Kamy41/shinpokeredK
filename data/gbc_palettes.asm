@@ -1,83 +1,70 @@
 ; palettes for overworlds, title screen, monsters
 ;gbcnote - add pokemon yellow GBC palettes
 GBCBasePalettes:
-	; PAL_ROUTE
-	RGB 31, 31, 31
-	RGB 16, 31,  4
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_ROUTE
+	RGB 21,28,11
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_PALLET
-	RGB 31, 31, 31
-	RGB 23, 17, 31
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_PALLET
+	RGB 25,28,27
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_VIRIDIAN
-	RGB 31, 31, 31
-	RGB 19, 31,  0
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_VIRIDIAN
+	RGB 17,26,3
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_PEWTER
-	RGB 31, 31, 31
-	RGB 18, 18, 15
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_PEWTER
+	RGB 23,25,16
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_CERULEAN
-	RGB 31, 31, 31
-	RGB  5,  8, 31
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_CERULEAN
+	RGB 20,26,31
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_LAVENDER
-	RGB 31, 31, 31
-	RGB 25,  4, 31
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_LAVENDER
+	RGB 27,20,27
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_VERMILION
-	RGB 31, 31, 31
-	RGB 31, 19,  0
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_VERMILION
+	RGB 30,18,0
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_CELADON
-	RGB 31, 31, 31
-	RGB  5, 31,  5
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_CELADON
+	RGB 16,30,22
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_FUCHSIA
-	RGB 31, 31, 31
-	RGB 31, 15, 15
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_SAFFRON
+	RGB 27,27,3
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_CINNABAR
-	RGB 31, 31, 31
-	RGB 31,  8,  8
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_FUCHSIA
+	RGB 31,15,22
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_INDIGO
-	RGB 31, 31, 31
-	RGB 11,  8, 31
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_CINNABAR
+	RGB 26,10,6
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_SAFFRON
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_INDIGO
+	RGB 22,14,24
+	RGB 17,20,30
+	RGB 3,2,2
 
-	; PAL_TOWNMAP
-	RGB 31, 31, 31
-	RGB  0, 21, 31
-	RGB 10, 28,  0
-	RGB  1,  1,  1
+	RGB 31,29,31 ; PAL_TOWNMAP
+	RGB 17,20,30
+	RGB 17,23,10
+	RGB 3,2,2
 
 	; PAL_LOGO1
 IF DEF(_BLUE)
@@ -121,76 +108,60 @@ ELSE
 	RGB  7,  7, 25	;blue logo text shadow
 	RGB  0,  0, 17	;blue logo text outline
 ENDC
-	; PAL_0F
-	RGB 31, 31, 31
-	RGB 13,  1, 31
-	RGB  0,  9, 31
-	RGB  1,  1,  1
+	RGB 31,29,31 ; PAL_0F
+	RGB 24,20,30
+	RGB 11,20,30
+	RGB 3,2,2
 
-	; PAL_MEWMON	;reworked to match red/blue tones 
-	RGB 31, 31, 31
-	RGB 30, 17,  11
-	RGB 11,  5,  14
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_MEWMON
+	RGB 30,22,17
+	RGB 16,14,19
+	RGB 3,2,2
 
-	; PAL_BLUEMON
-	RGB 31, 31, 31
-	RGB 16, 18, 31
-	RGB  0,  1, 25
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_BLUEMON
+	RGB 18,20,27
+	RGB 11,15,23
+	RGB 3,2,2
 
-	; PAL_REDMON
-	RGB 31, 31, 31
-	RGB 31, 17,  0
-	RGB 31,  0,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_REDMON
+	RGB 31,20,10
+	RGB 26,10,6
+	RGB 3,2,2
 
-	; PAL_CYANMON
-	RGB 31, 31, 31
-	RGB 16, 26, 31
-	RGB  0, 17, 31
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_CYANMON
+	RGB 21,25,29
+	RGB 14,19,25
+	RGB 3,2,2
 
-	; PAL_PURPLEMON
-	RGB 31, 31, 31
-	RGB 25, 15, 31
-	RGB 19,  0, 22
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_PURPLEMON	
+	RGB 27,22,24
+	RGB 21,15,23
+	RGB 3,2,2
 
-	; PAL_BROWNMON
-	RGB 31, 31, 31
-	RGB 29, 18, 10
-	RGB 17,  9,  5
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_BROWNMON
+	RGB 28,20,15
+	RGB 21,14,9
+	RGB 3,2,2
 
-	; PAL_GREENMON
-	RGB 31, 31, 31
-	RGB 17, 31, 11
-	RGB  1, 22,  6
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_GREENMON
+	RGB 20,26,16
+	RGB 9,20,11
+	RGB 3,2,2
 
-	; PAL_PINKMON
-	RGB 31, 31, 31
-	RGB 31, 15, 18
-	RGB 31,  0,  6
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_PINKMON
+	RGB 30,22,24
+	RGB 28,15,21
+	RGB 3,2,2
 
-	; PAL_YELLOWMON
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 28, 14,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_YELLOWMON
+	RGB 29,26,12
+	RGB 24,18,0
+	RGB 3,2,2
 
-	; PAL_GREYMON
-	RGB 31, 31, 31
-IF DEF(_YSPRITES)	;Use Yellow's version of gray if using yellow sprites
-	RGB 20, 23, 10
-	RGB 11, 11,  5
-ELSE				;Else use the converted R/B stye of gray
-	RGB 21, 14, 16	
-	RGB 10,  9, 12
-ENDC
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_GREYMON
+	RGB 25,21,22
+	RGB 15,15,18
+	RGB 3,2,2
 
 ;gbcnote - retouched all the slot palettes to match the red/blue coloring
 	; PAL_SLOTS1
@@ -265,48 +236,40 @@ IF DEF(_GREEN)
 	RGB  3,  3,  3	;"1" icon outline
 ENDC
 
-	; PAL_BLACK
-	RGB 31, 31, 31
-	RGB  3,  3,  3
-	RGB  3,  3,  3
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_BLACK
+	RGB 7,7,7
+	RGB 2,3,3
+	RGB 3,2,2
 
-	; PAL_GREENBAR
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB  0, 31,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_GREENBAR
+	RGB 30,26,15
+	RGB 9,20,11
+	RGB 3,2,2
 
-	; PAL_YELLOWBAR
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 31, 18,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_YELLOWBAR
+	RGB 30,26,15
+	RGB 26,20,0
+	RGB 3,2,2
 
-	; PAL_REDBAR
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 31,  0,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_REDBAR
+	RGB 30,26,15
+	RGB 26,10,6
+	RGB 3,2,2
 
-	; PAL_BADGE	
-	;re-toned to a nice teal for the cascade and earth badges
-	RGB 31, 31, 31
-	RGB  3, 11,  6
-	RGB  3, 17, 11
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_BADGE
+	RGB 30,22,17
+	RGB 11,15,23
+	RGB 3,2,2
 
-	; PAL_CAVE
-	RGB 31, 31, 31
-	RGB 23,  8,  0
-	RGB 17, 14, 11
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_CAVE
+	RGB 21,14,9
+	RGB 18,24,22
+	RGB 3,2,2
 
-	; PAL_GAMEFREAK
-	RGB 31, 31, 31
-	RGB 31, 19,  0
-	RGB 19, 19,  0
-	RGB  3,  3,  3
+	RGB 31,29,31 ; PAL_GAMEFREAK
+	RGB 31,28,14
+	RGB 24,20,10
+	RGB 3,2,2
 
 	; PAL_25
 	RGB 31, 31, 31
