@@ -242,18 +242,18 @@ PayDayAnim:
 	db $FF
 
 FirePunchAnim:
-	db $06,$06,$02
-	db $46,$FF,$11
+	db $06,$33,$02
+	db $46,$ff,$11
 	db $FF
 
 IcePunchAnim:
-	db $06,$07,$02
-	db $10,$FF,$2F
+	db $06,$39,$02
+	db $10,$ff,$2F 
 	db $FF
 
 ThunderPunchAnim:
-	db $06,$08,$02
-	db SE_DARK_SCREEN_PALETTE, $FF
+	db $06,$56,$02
+	db SE_DARK_SCREEN_PALETTE, $ff
 	db $46,$FF,$2B
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
@@ -361,7 +361,7 @@ FuryAttackAnim:
 HornDrillAnim:
 	db $42,$1F,$05
 	db $42,$FF,$05
-	db $42,$FF,$05
+	db $42,$1F,$05
 	db $42,$FF,$05
 	db $42,$FF,$05
 	db $FF
@@ -563,7 +563,7 @@ LowKickAnim:
 
 CounterAnim:
 	db SE_SLIDE_MON_OFF, $43
-	db $46,$FF,$04
+	db $46,$43,$04
 	db SE_SHOW_MON_PIC, $FF
 	db $FF
 
@@ -712,6 +712,7 @@ ToxicAnim:
 
 ConfusionAnim:
 	db SE_FLASH_SCREEN_LONG, $5C
+	db SE_FLASH_SCREEN_LONG, $FF
 	db $FF
 
 PsychicAnim:
@@ -732,8 +733,11 @@ MeditateAnim:
 
 AgilityAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $60
-	db SE_DELAY_ANIMATION_10, $FF	;joenote - added this to make the animation more obvious
-	db SE_RESET_SCREEN_PALETTE, $FF
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+        db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+        db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 QuickAttackAnim:
@@ -753,7 +757,9 @@ TeleportAnim:
 
 NightShadeAnim:
 	db SE_FLASH_SCREEN_LONG, $5C
+	db SE_DARK_SCREEN_PALETTE, $FF
 	db SE_WAVY_SCREEN, $FF
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 MimicAnim:
@@ -774,7 +780,6 @@ DoubleTeamAnim:
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db SE_SHAKE_BACK_AND_FORTH, $67
 	db SE_SHOW_MON_PIC, $FF
-	db $46,$6F,$33
 	db $FF
 
 RecoverAnim:
@@ -934,7 +939,8 @@ ClampAnim:
 	db $FF
 
 SwiftAnim:
-	db $43,$80,$3F
+	db $42,$80,$3F
+	db $42,$FF,$3F
 	db $FF
 
 SkullBashAnim:
@@ -1055,6 +1061,10 @@ SplashAnim:
 
 AcidArmorAnim:
 	db SE_SLIDE_MON_DOWN_AND_HIDE, $96
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_DELAY_ANIMATION_10, $FF	
+	db SE_SHOW_MON_PIC, $FF
 	db $FF
 
 CrabHammerAnim:
