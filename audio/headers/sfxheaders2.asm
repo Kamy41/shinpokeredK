@@ -241,6 +241,9 @@ SFX_Battle_0F::
 SFX_Damage::
 	audio SFX_Damage, Ch7
 
+SFX_Damage_1::
+	audio SFX_Damage_1, Ch7
+
 SFX_Not_Very_Effective::
 	audio SFX_Not_Very_Effective, Ch7
 
