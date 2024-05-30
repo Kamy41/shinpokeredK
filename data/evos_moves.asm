@@ -528,7 +528,8 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, ABSORB
+	db 24, ABSORB
+	db 27, VINE_WHIP
 	db 32, POISONPOWDER
 	db 36, STUN_SPORE
 	db 39, SLEEP_POWDER
@@ -1125,9 +1126,8 @@ KabutoEvosMoves:
 	db 0
 ; Learnset
 	db 34, ABSORB
-	db 39, SLASH
 	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 49, ROCK_SLIDE
 	db 0
 
 KabutopsEvosMoves:
@@ -1135,9 +1135,9 @@ KabutopsEvosMoves:
 	db 0
 ; Learnset
 	db 34, ABSORB
-	db 39, SLASH
+	db 40, SLASH
 	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 53, ROCK_SLIDE
 	db 0
 
 HorseaEvosMoves:
@@ -1203,20 +1203,19 @@ OmanyteEvosMoves:
 	db EV_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 34, BITE
+	db 44, LEER
+	db 49, HYDRO_PUMP
 	db 0
 
 OmastarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 34, BITE
+        db 40, SPIKE_CANNON
+	db 46, LEER
+	db 53, HYDRO_PUMP
 	db 0
 
 JigglypuffEvosMoves:
